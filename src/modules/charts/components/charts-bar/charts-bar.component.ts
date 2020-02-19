@@ -25,13 +25,13 @@ export class ChartsBarComponent implements OnInit, AfterViewInit {
         this.chart = new Chart(this.myBarChart.nativeElement, {
             type: 'bar',
             data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'August'],
                 datasets: [
                     {
                         label: 'Revenue',
                         backgroundColor: 'rgba(2,117,216,1)',
                         borderColor: 'rgba(2,117,216,1)',
-                        data: [4215, 5312, 6251, 7841, 9821, 14984],
+                        data: [4215, 5312, 6251, 7841, 9821, 14984, 5500],
                     },
                 ],
             },
